@@ -1,9 +1,15 @@
 /* This is the CSS for the navigation bar. It sets the background color to a gradient that transitions from a pinkish color (#ff7e5f) to a purplish color (#cc607b). */
 .navbar {
     background: linear-gradient(to right, #ff7e5f, #cc607b);
+    height: 60px; /* added to give a height to the navigation bar */
+    display: flex; /* added to align items in the navigation bar */
+    justify-content: center; /* added to center the items in the navigation bar */
+    align-items: center; /* added to center the items in the navigation bar */
 }
 
 /* This sets the background color for the entire body of the webpage. The color is defined as a gradient that transitions from a pinkish color (#ff7e5f) to a yellowish color (#feb47b). */
 body {
-    background: (#ff7e5f, #feb47b); 
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 0; /* added to remove the default margin of the body element */
+    padding: 0; /* added to remove the default padding of the body element */
 }
